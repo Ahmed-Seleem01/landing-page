@@ -170,3 +170,13 @@ figure>figcaption{
 #section-4-box button{
   border: 2px solid white;
 }
+
+.footer{
+  background-color: #1F2937;
+  color: #F9FAF8;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
