@@ -130,3 +130,27 @@ button{
   padding:10px 15px;
   text-align: center;
 }
+#section-3{
+  background-color: #E5E7EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+#section-3 figure{
+  font-size: 36px;
+  font-weight: 300;
+  color:  #1F2937;
+  font-style: italic;
+  margin: 0;
+  padding: 0px 30px;
+}
+blockquote{
+  margin: 0 0 35px;
+}
+
+figure>figcaption{
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+}
