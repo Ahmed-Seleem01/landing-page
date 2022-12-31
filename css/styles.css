@@ -58,3 +58,44 @@ nav>ul li>a{
   font-size: 18px;
   text-decoration: none;
 } 
+
+.main{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.main>div{
+  padding: 80px 30px;
+}
+
+#section-1{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+#section-1 #hero{
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+#section-1 p{
+  color: #E5E7EB;
+  font-size: 18px;
+}
+#eagle-img{
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+button{
+  font-size: 18px;
+  background-color: #3882F6;
+  border-radius: 5px;
+  border: none;
+  color: #F9FAF8;
+  padding: 8px 12px;
+  cursor: pointer;
+}
